@@ -30,7 +30,7 @@ const TodoList = () => {
 
   return (
     <div className="mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Todo List</h1>
+      <h1 className="text-2xl text-center font-bold mb-4">Todo List</h1>
       <div className="flex mb-4">
         <input
           type="text"
