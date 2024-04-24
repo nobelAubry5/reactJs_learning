@@ -21,16 +21,16 @@ const Counter = () => {
       <div className="flex items-center justify-center">
         <button
           onClick={decrement}
-          className="px-4 py-2 bg-red-500 text-white rounded-md mr-2 focus:outline-none"
+          className="px-4 py-2 bg-blue-500 text-white rounded-md mr-2 focus:outline-none"
         >
-          -1
+          -
         </button>
         <span className="text-3xl font-bold">{counter}</span>
         <button
           onClick={increment}
-          className="px-4 py-2 bg-green-500 text-white rounded-md ml-2 focus:outline-none"
+          className="px-4 py-2 bg-blue-500 text-white rounded-md ml-2 focus:outline-none"
         >
-          +1
+          +
         </button>
       </div>
       <button
